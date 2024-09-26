@@ -1,25 +1,25 @@
 
-insert 111
-             insert 23
+insert Titanic
+             insert Shrek
 
-insert 99
-insert         4
+insert Barbie
+insert         Frozen
 
 isEmpty
 
-    insert     111
+    insert     Minions
 
 print
 
 
-search 9
+search Shrek
 
-remove 23
+remove Frozen
 
-remove 4
-remove 999999
+remove Titanic
+remove Catwoman
 isEmptyasfh
 print
 
-insert 123
+insert Skyfall
 print
