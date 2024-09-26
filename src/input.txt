@@ -1,5 +1,5 @@
 
-insert Titanic
+insert Avatar
              insert Shrek
 
 insert Barbie
@@ -16,10 +16,10 @@ search Shrek
 
 remove Frozen
 
-remove Titanic
+remove Avatar
 remove Catwoman
 isEmptyasfh
 print
 
-insert Skyfall
+insert Titanic
 print

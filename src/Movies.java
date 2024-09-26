@@ -1,3 +1,15 @@
+/***
+ * @file: Movies.java
+ * @description: This code creates a Movies class with get and set methods for each variable
+ * @author: Douglas Otton
+ * @date: September 26, 2024
+ ***/
+
+/*
+Edits to the Movies csv:
+    Removed description, date released (kept year released), and genres columns from original CSV
+ */
+
 public class Movies implements Comparable<Movies> {
     private String title;
     private Integer year;
@@ -10,6 +22,7 @@ public class Movies implements Comparable<Movies> {
     private String runtime;
     private String license;
 
+    // Default constructor
     public Movies() {
         title = "";
         year = 0;
@@ -23,6 +36,7 @@ public class Movies implements Comparable<Movies> {
         license = "";
     }
 
+    // Constructor
     public Movies(String title, Integer year, String distributor, Long budget, Long domOpen, Long domSales,
                   Long intSales, Long wwSales, String runtime, String license) {
         this.title = title;
@@ -37,22 +51,26 @@ public class Movies implements Comparable<Movies> {
         this.license = license;
     }
 
+    // toString method
     public String toString() {
         return "Title: " + title + ", Year: " + year + ", Distributor: " + distributor + ", Budget: " + budget +
                 ", Domestic Opening: " + domOpen + ", Domestic Sales: " + domSales + ", International Sales: " +
                 intSales + ", Worldwide Sales: " + wwSales + ", Runtime: " + runtime + ", License: " + license + "\n";
     }
 
+    // compareTo method
     @Override
     public int compareTo(Movies obj) {
         return obj.wwSales.compareTo(this.wwSales);
     }
 
+    // equals method
     @Override
     public boolean equals(Object obj) {
         return super.equals(obj);
     }
 
+    // get/set title methods
     public String getTitle() {
         return title;
     }
@@ -60,6 +78,7 @@ public class Movies implements Comparable<Movies> {
         this.title = title;
     }
 
+    // get/set year methods
     public Integer getYear() {
         return year;
     }
@@ -67,6 +86,7 @@ public class Movies implements Comparable<Movies> {
         this.year = year;
     }
 
+    // get/set distributor methods
     public String getDistributor() {
         return distributor;
     }
@@ -74,6 +94,7 @@ public class Movies implements Comparable<Movies> {
         this.distributor = distributor;
     }
 
+    // get/set budget methods
     public Long getBudget() {
         return budget;
     }
@@ -81,6 +102,7 @@ public class Movies implements Comparable<Movies> {
         this.budget = budget;
     }
 
+    // get/set domOpen methods
     public Long getDomOpen() {
         return domOpen;
     }
@@ -88,6 +110,7 @@ public class Movies implements Comparable<Movies> {
         this.domOpen = domOpen;
     }
 
+    // get/set getDomSales methods
     public Long getDomSales() {
         return domSales;
     }
@@ -95,6 +118,7 @@ public class Movies implements Comparable<Movies> {
         this.domSales = domSales;
     }
 
+    // get/set getIntSales methods
     public Long getIntSales() {
         return intSales;
     }
@@ -102,6 +126,7 @@ public class Movies implements Comparable<Movies> {
         this.intSales = intSales;
     }
 
+    // get/set wwSales methods
     public Long getWwSales() {
         return wwSales;
     }
@@ -109,6 +134,7 @@ public class Movies implements Comparable<Movies> {
         this.wwSales = wwSales;
     }
 
+    // get/set runtime methods
     public String getRuntime() {
         return runtime;
     }
@@ -116,6 +142,7 @@ public class Movies implements Comparable<Movies> {
         this.runtime = runtime;
     }
 
+    // get/set license methods
     public String getLicense() {
         return license;
     }

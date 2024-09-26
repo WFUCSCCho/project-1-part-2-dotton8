@@ -1,10 +1,10 @@
-inserted Titanic
+inserted Avatar
 inserted Shrek
 inserted Barbie
 inserted Frozen
 false, tree isn't empty
 inserted Minions
-Title: Titanic, Year: 1997, Distributor: Paramount Pictures, Budget: 200000000, Domestic Opening: 28638131, Domestic Sales: 674292608, International Sales: 1590450697, Worldwide Sales: 2264743305, Runtime: 3 hr 14 min, License: PG-13
+Title: Avatar, Year: 2009, Distributor: Twentieth Century Fox, Budget: 237000000, Domestic Opening: 77025481, Domestic Sales: 785221649, International Sales: 2138484377, Worldwide Sales: 2923706026, Runtime: 2 hr 42 min, License: PG-13
  Title: Barbie, Year: 2023, Distributor: Warner Bros., Budget: 0, Domestic Opening: 162022044, Domestic Sales: 630450087, International Sales: 797000000, Worldwide Sales: 1427450087, Runtime: 1 hr 43 min, License: PG
  Title: Frozen, Year: 2013, Distributor: Walt Disney Studios Motion Pictures, Budget: 150000000, Domestic Opening: 243390, Domestic Sales: 400953009, International Sales: 883587509, Worldwide Sales: 1284540518, Runtime: 1 hr 42 min, License: PG
  Title: Minions, Year: 2015, Distributor: Universal Pictures, Budget: 74000000, Domestic Opening: 115718405, Domestic Sales: 336045770, International Sales: 823398892, Worldwide Sales: 1159444662, Runtime: 1 hr 31 min, License: PG
@@ -12,16 +12,16 @@ Title: Titanic, Year: 1997, Distributor: Paramount Pictures, Budget: 200000000, 
  
 found Shrek
 removed Frozen
-removed Titanic
+removed Avatar
 remove failed Catwoman
-Invalid Command
+Invalid Command isEmptyasfh
 Title: Barbie, Year: 2023, Distributor: Warner Bros., Budget: 0, Domestic Opening: 162022044, Domestic Sales: 630450087, International Sales: 797000000, Worldwide Sales: 1427450087, Runtime: 1 hr 43 min, License: PG
  Title: Minions, Year: 2015, Distributor: Universal Pictures, Budget: 74000000, Domestic Opening: 115718405, Domestic Sales: 336045770, International Sales: 823398892, Worldwide Sales: 1159444662, Runtime: 1 hr 31 min, License: PG
  Title: Shrek, Year: 2001, Distributor: DreamWorks Distribution, Budget: 60000000, Domestic Opening: 42347760, Domestic Sales: 268163011, International Sales: 220278357, Worldwide Sales: 488441368, Runtime: 1 hr 30 min, License: PG
  
-inserted Skyfall
-Title: Barbie, Year: 2023, Distributor: Warner Bros., Budget: 0, Domestic Opening: 162022044, Domestic Sales: 630450087, International Sales: 797000000, Worldwide Sales: 1427450087, Runtime: 1 hr 43 min, License: PG
+inserted Titanic
+Title: Titanic, Year: 1997, Distributor: Paramount Pictures, Budget: 200000000, Domestic Opening: 28638131, Domestic Sales: 674292608, International Sales: 1590450697, Worldwide Sales: 2264743305, Runtime: 3 hr 14 min, License: PG-13
+ Title: Barbie, Year: 2023, Distributor: Warner Bros., Budget: 0, Domestic Opening: 162022044, Domestic Sales: 630450087, International Sales: 797000000, Worldwide Sales: 1427450087, Runtime: 1 hr 43 min, License: PG
  Title: Minions, Year: 2015, Distributor: Universal Pictures, Budget: 74000000, Domestic Opening: 115718405, Domestic Sales: 336045770, International Sales: 823398892, Worldwide Sales: 1159444662, Runtime: 1 hr 31 min, License: PG
- Title: Skyfall, Year: 2012, Distributor: Sony Pictures Entertainment (SPE), Budget: 200000000, Domestic Opening: 88364714, Domestic Sales: 304360277, International Sales: 838111018, Worldwide Sales: 1142471295, Runtime: 2 hr 23 min, License: PG-13
  Title: Shrek, Year: 2001, Distributor: DreamWorks Distribution, Budget: 60000000, Domestic Opening: 42347760, Domestic Sales: 268163011, International Sales: 220278357, Worldwide Sales: 488441368, Runtime: 1 hr 30 min, License: PG
  
